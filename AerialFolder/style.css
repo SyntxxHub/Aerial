@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Metropolis-Bold';
+    src: local('Metropolis Bold'), local('Metropolis-Bold'),
+        url('Metropolis-Bold.woff2') format('woff2'),
+        url('Metropolis-Bold.woff') format('woff'),
+        url('Metropolis-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.hidden-html{
+    display: none;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-image: url(assets/bg/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.maincontainer {
+    text-align: left;
+    margin-top: 10vh;
+    margin-left: 10vw;
+}
+
+.bottom-right-image {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: -35px;
+    width: 500px;
+    z-index: 1;
+}
+
+.header {
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.header-links{
+    flex: 1;
+    text-align: right;
+    margin-left: 70px;
+}
+.header-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.header-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    line-height: 15;
+    margin-right: 300px;
+    margin-left: -300px;
+}
+
+.logo_aerial {
+    margin-bottom: 1rem!important;
+    width: 4vw; 
+    height: 4vw; 
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+}
+
+.font-load {
+    margin-bottom: 1rem!important;
+    font-family: 'Metropolis-Bold', sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 3vw;
+    color: #fff;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.rounded-border {
+    width: 34%;
+    background-color: rgb(167, 78, 78);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.description {
+    position: relative;
+    color:#fff;
+    font-size: 18px;
+    margin: 2.5vh 0 0 0;
+    line-height: 1.2;
+    margin-bottom: 2.5vh;
+}
+
+.button-rounded {
+    border: none;
+    border-radius: 5px;
+    background-color: #a03434;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 1vh 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-rounded:hover{
+    background-color: rgb(94, 21, 21);
+    transform: scale(1.05);
+}
+
+.download-rounded {
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #a03434;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 1vh 2vw;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.download-rounded:hover{
+    background-color: rgb(94, 21, 21);
+    transform: scale(1.05);
+}
+
+#downloadmainheader {
+    text-align: center;
+    color: #5e0000;
+}
+
+.flex-box {
+    display: flex;
+}
