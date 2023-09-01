@@ -25,7 +25,7 @@
     height: 100vh;
     position: relative;
     overflow: hidden;
-    background-image: url(assets/bg/bg-masthead.jpg);
+    background-image: url(assets/bg/background-1.jpg);
     background-size: cover;
     background-position: center center;
 }
@@ -41,7 +41,7 @@
     bottom: 0;
     right: 0;
     margin: -35px;
-    width: 500px;
+    width: -500px;
     z-index: 1;
 }
 
@@ -96,7 +96,7 @@
 
 .rounded-border {
     width: 34%;
-    background-color: rgb(167, 78, 78);
+    background-color: rgb(117, 117, 117);
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 10px;
@@ -115,7 +115,7 @@
 .button-rounded {
     border: none;
     border-radius: 5px;
-    background-color: #a03434;
+    background-color: #838383;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     padding: 1vh 2vw;
@@ -124,7 +124,7 @@
 }
 
 .button-rounded:hover{
-    background-color: rgb(94, 21, 21);
+    background-color: rgb(73, 73, 73);
     transform: scale(1.05);
 }
 
@@ -132,7 +132,7 @@
     border: none;
     text-align: center;
     border-radius: 5px;
-    background-color: #a03434;
+    background-color: #838383;
     font-family: 'Poppins', sans-serif;
     color: #fff;
     padding: 1vh 2vw;
@@ -141,13 +141,13 @@
 }
 
 .download-rounded:hover{
-    background-color: rgb(94, 21, 21);
+    background-color: rgb(73, 73, 73);
     transform: scale(1.05);
 }
 
 #downloadmainheader {
     text-align: center;
-    color: #5e0000;
+    color: #505050;
 }
 
 .flex-box {
